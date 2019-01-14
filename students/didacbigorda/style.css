@@ -111,7 +111,26 @@ header a {
 
 .image-section img {
   width: 100%;
-  grid-column-start: initial;
+}
+
+.third-section-div div {
+  background-color: #116466;
+}
+
+.third-section-div div a {
+  text-decoration: none;
+  background-color: #116466;
+}
+
+.third-section div a img {
+  width: 100%;
+}
+
+.third-section div a p {
+  background-color: #116466;
+  margin-top: 0;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 
