@@ -91,8 +91,6 @@ header a {
   text-decoration: none;
   background-color: #116466;
   margin-bottom: 1.5rem;
-  padding: 1rem;
-  border-radius: 5px;
 }
 
 .first-section ul li a:hover {
@@ -103,6 +101,12 @@ header a {
   text-decoration: none;
   font-size: 1.5rem;
   background-color: #116466;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
 }
 
 .first-section h2 {
