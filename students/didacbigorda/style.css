@@ -50,6 +50,7 @@ header {
   align-items: baseline;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 header h1 {
@@ -124,6 +125,7 @@ header a {
 .third-section-div div a {
   text-decoration: none;
   background-color: #116466;
+  height: auto;
 }
 
 .third-section div a img {
@@ -137,7 +139,61 @@ header a {
   padding: 0.5rem;
 }
 
+.exercise-title {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
 
+.testimonials {
+  background-color: #D1E8E2;
+  color :#2c3531;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.testimonials:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.testimonials span {
+  background-color: #D1E8E2;
+  color: #2c3531;
+  width: 100%;
+  float: left;
+  margin-left: 5px;
+}
+
+.fifth-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.fifth-section form textarea {
+  margin-top: 1rem;
+}
+
+.fifth-section form input {
+  background-color: #116466;
+  color: #D1E8E2;
+  border-style: none;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #FFCB9A;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+footer > * {
+  background-color: #FFCB9A;
+  color: #2c3531;
+}
 
 
 
